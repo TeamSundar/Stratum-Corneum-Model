@@ -1,0 +1,25 @@
+
+#include "toppar/charmm36-jul2020.ff/forcefield.itp"
+#include "toppar/forcefield.itp"
+#include "toppar/ECLP.prm"
+
+#include "toppar/NP24.itp"
+#include "toppar/AP24.itp"
+#include "toppar/FF24.itp"
+#include "toppar/CHL1.itp"
+#include "toppar/TIP3.itp"
+
+#include "toppar/ECLP.itp"
+
+[ system ]
+; Name
+SC
+
+[ molecules ]
+; Compound	#mols
+NP24	          24
+AP24              16
+FF24	          40
+CHL1	          40
+TIP3	          228
+ECLP              40
