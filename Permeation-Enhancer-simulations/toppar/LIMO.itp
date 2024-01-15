@@ -1,0 +1,274 @@
+; Created by cgenff_charmm2gmx.py
+
+[ moleculetype ]
+; Name			   nrexcl
+LIMO				 3
+
+[ atoms ]
+;	 nr		  type	resnr residue  atom   cgnr	   charge		mass  typeB    chargeB		massB
+; residue	 1 LIMO rtp LIMO q	qsum
+     1      CG311      1 LIMO     C1      1     -0.103     12.011   ;
+     2      CG321      1 LIMO     C2      2     -0.215     12.011   ;
+     3      CG321      1 LIMO     C3      3     -0.194     12.011   ;
+     4      CG321      1 LIMO     C4      4     -0.183     12.011   ;
+     5      CG2D1      1 LIMO     C5      5      0.024     12.011   ;
+     6      CG2D1      1 LIMO     C6      6     -0.149     12.011   ;
+     7      CG2D1      1 LIMO     C7      7      0.052     12.011   ;
+     8      CG331      1 LIMO     C8      8     -0.276     12.011   ;
+     9      CG331      1 LIMO     C9      9     -0.277     12.011   ;
+    10      CG2D2      1 LIMO    C10     10     -0.419     12.011   ;
+    11       HGA1      1 LIMO     H1     11      0.090      1.008   ;
+    12       HGA2      1 LIMO     H2     12      0.090      1.008   ;
+    13       HGA2      1 LIMO     H3     13      0.090      1.008   ;
+    14       HGA2      1 LIMO     H4     14      0.090      1.008   ;
+    15       HGA2      1 LIMO     H5     15      0.090      1.008   ;
+    16       HGA2      1 LIMO     H6     16      0.090      1.008   ;
+    17       HGA2      1 LIMO     H7     17      0.090      1.008   ;
+    18       HGA4      1 LIMO     H8     18      0.150      1.008   ;
+    19       HGA3      1 LIMO     H9     19      0.090      1.008   ;
+    20       HGA3      1 LIMO    H10     20      0.090      1.008   ;
+    21       HGA3      1 LIMO    H11     21      0.090      1.008   ;
+    22       HGA3      1 LIMO    H12     22      0.090      1.008   ;
+    23       HGA3      1 LIMO    H13     23      0.090      1.008   ;
+    24       HGA3      1 LIMO    H14     24      0.090      1.008   ;
+    25       HGA5      1 LIMO    H15     25      0.210      1.008   ;
+    26       HGA5      1 LIMO    H16     26      0.210      1.008   ;
+
+[ bonds ]
+;	ai	  aj funct			  c0			c1			  c2			c3
+    1     2	 1 ;       CG311      CG321
+    1     3	 1 ;       CG311      CG321
+    1     7	 1 ;       CG311      CG2D1
+    1    11	 1 ;       CG311       HGA1
+    2     4	 1 ;       CG321      CG321
+    2    12	 1 ;       CG321       HGA2
+    2    13	 1 ;       CG321       HGA2
+    3     6	 1 ;       CG321      CG2D1
+    3    14	 1 ;       CG321       HGA2
+    3    15	 1 ;       CG321       HGA2
+    4     5	 1 ;       CG321      CG2D1
+    4    16	 1 ;       CG321       HGA2
+    4    17	 1 ;       CG321       HGA2
+    5     6	 1 ;       CG2D1      CG2D1
+    5     8	 1 ;       CG2D1      CG331
+    6    18	 1 ;       CG2D1       HGA4
+    7     9	 1 ;       CG2D1      CG331
+    7    10	 1 ;       CG2D1      CG2D2
+    8    19	 1 ;       CG331       HGA3
+    8    20	 1 ;       CG331       HGA3
+    8    21	 1 ;       CG331       HGA3
+    9    22	 1 ;       CG331       HGA3
+    9    23	 1 ;       CG331       HGA3
+    9    24	 1 ;       CG331       HGA3
+   10    25	 1 ;       CG2D2       HGA5
+   10    26	 1 ;       CG2D2       HGA5
+
+[ pairs ]
+;	ai	  aj funct			  c0			c1			  c2			c3
+    1     5	 1
+    1    16	 1
+    1    17	 1
+    1    18	 1
+    1    22	 1
+    1    23	 1
+    1    24	 1
+    1    25	 1
+    1    26	 1
+    2     6	 1
+    2    14	 1
+    2    15	 1
+    2     9	 1
+    2    10	 1
+    2     8	 1
+    3     4	 1
+    3    12	 1
+    3    13	 1
+    3     9	 1
+    3    10	 1
+    3     8	 1
+    4     7	 1
+    4    11	 1
+    4    18	 1
+    4    19	 1
+    4    20	 1
+    4    21	 1
+    5    12	 1
+    5    13	 1
+    5    14	 1
+    5    15	 1
+    6     7	 1
+    6    11	 1
+    6    16	 1
+    6    17	 1
+    6    19	 1
+    6    20	 1
+    6    21	 1
+    7    12	 1
+    7    13	 1
+    7    14	 1
+    7    15	 1
+    8    16	 1
+    8    17	 1
+    8    18	 1
+    9    11	 1
+    9    25	 1
+    9    26	 1
+   10    11	 1
+   10    22	 1
+   10    23	 1
+   10    24	 1
+   11    12	 1
+   11    13	 1
+   11    14	 1
+   11    15	 1
+   12    16	 1
+   12    17	 1
+   13    16	 1
+   13    17	 1
+   14    18	 1
+   15    18	 1
+
+[ angles ]
+;	ai	  aj	ak funct			c0			  c1			c2			  c3
+    2     1     3	5 ;      CG321      CG311      CG321
+    2     1     7	5 ;      CG321      CG311      CG2D1
+    2     1    11	5 ;      CG321      CG311       HGA1
+    3     1     7	5 ;      CG321      CG311      CG2D1
+    3     1    11	5 ;      CG321      CG311       HGA1
+    7     1    11	5 ;      CG2D1      CG311       HGA1
+    1     2     4	5 ;      CG311      CG321      CG321
+    1     2    12	5 ;      CG311      CG321       HGA2
+    1     2    13	5 ;      CG311      CG321       HGA2
+    4     2    12	5 ;      CG321      CG321       HGA2
+    4     2    13	5 ;      CG321      CG321       HGA2
+   12     2    13	5 ;       HGA2      CG321       HGA2
+    1     3     6	5 ;      CG311      CG321      CG2D1
+    1     3    14	5 ;      CG311      CG321       HGA2
+    1     3    15	5 ;      CG311      CG321       HGA2
+    6     3    14	5 ;      CG2D1      CG321       HGA2
+    6     3    15	5 ;      CG2D1      CG321       HGA2
+   14     3    15	5 ;       HGA2      CG321       HGA2
+    2     4     5	5 ;      CG321      CG321      CG2D1
+    2     4    16	5 ;      CG321      CG321       HGA2
+    2     4    17	5 ;      CG321      CG321       HGA2
+    5     4    16	5 ;      CG2D1      CG321       HGA2
+    5     4    17	5 ;      CG2D1      CG321       HGA2
+   16     4    17	5 ;       HGA2      CG321       HGA2
+    4     5     6	5 ;      CG321      CG2D1      CG2D1
+    4     5     8	5 ;      CG321      CG2D1      CG331
+    6     5     8	5 ;      CG2D1      CG2D1      CG331
+    3     6     5	5 ;      CG321      CG2D1      CG2D1
+    3     6    18	5 ;      CG321      CG2D1       HGA4
+    5     6    18	5 ;      CG2D1      CG2D1       HGA4
+    1     7     9	5 ;      CG311      CG2D1      CG331
+    1     7    10	5 ;      CG311      CG2D1      CG2D2
+    9     7    10	5 ;      CG331      CG2D1      CG2D2
+    5     8    19	5 ;      CG2D1      CG331       HGA3
+    5     8    20	5 ;      CG2D1      CG331       HGA3
+    5     8    21	5 ;      CG2D1      CG331       HGA3
+   19     8    20	5 ;       HGA3      CG331       HGA3
+   19     8    21	5 ;       HGA3      CG331       HGA3
+   20     8    21	5 ;       HGA3      CG331       HGA3
+    7     9    22	5 ;      CG2D1      CG331       HGA3
+    7     9    23	5 ;      CG2D1      CG331       HGA3
+    7     9    24	5 ;      CG2D1      CG331       HGA3
+   22     9    23	5 ;       HGA3      CG331       HGA3
+   22     9    24	5 ;       HGA3      CG331       HGA3
+   23     9    24	5 ;       HGA3      CG331       HGA3
+    7    10    25	5 ;      CG2D1      CG2D2       HGA5
+    7    10    26	5 ;      CG2D1      CG2D2       HGA5
+   25    10    26	5 ;       HGA5      CG2D2       HGA5
+
+[ dihedrals ]
+;	ai	  aj	ak	  al funct			  c0			c1			  c2			c3			  c4			c5
+    3     1     2     4	 9 ;      CG321      CG311      CG321      CG321
+    3     1     2    12	 9 ;      CG321      CG311      CG321       HGA2
+    3     1     2    13	 9 ;      CG321      CG311      CG321       HGA2
+    7     1     2     4	 9 ;      CG2D1      CG311      CG321      CG321
+    7     1     2    12	 9 ;      CG2D1      CG311      CG321       HGA2
+    7     1     2    13	 9 ;      CG2D1      CG311      CG321       HGA2
+   11     1     2     4	 9 ;       HGA1      CG311      CG321      CG321
+   11     1     2    12	 9 ;       HGA1      CG311      CG321       HGA2
+   11     1     2    13	 9 ;       HGA1      CG311      CG321       HGA2
+    2     1     3     6	 9 ;      CG321      CG311      CG321      CG2D1
+    2     1     3    14	 9 ;      CG321      CG311      CG321       HGA2
+    2     1     3    15	 9 ;      CG321      CG311      CG321       HGA2
+    7     1     3     6	 9 ;      CG2D1      CG311      CG321      CG2D1
+    7     1     3    14	 9 ;      CG2D1      CG311      CG321       HGA2
+    7     1     3    15	 9 ;      CG2D1      CG311      CG321       HGA2
+   11     1     3     6	 9 ;       HGA1      CG311      CG321      CG2D1
+   11     1     3    14	 9 ;       HGA1      CG311      CG321       HGA2
+   11     1     3    15	 9 ;       HGA1      CG311      CG321       HGA2
+    2     1     7     9	 9 ;      CG321      CG311      CG2D1      CG331
+    2     1     7    10	 9 ;      CG321      CG311      CG2D1      CG2D2
+    3     1     7     9	 9 ;      CG321      CG311      CG2D1      CG331
+    3     1     7    10	 9 ;      CG321      CG311      CG2D1      CG2D2
+   11     1     7     9	 9 ;       HGA1      CG311      CG2D1      CG331
+   11     1     7    10	 9 ;       HGA1      CG311      CG2D1      CG2D2
+    1     2     4     5	 9 ;      CG311      CG321      CG321      CG2D1
+    1     2     4    16	 9 ;      CG311      CG321      CG321       HGA2
+    1     2     4    17	 9 ;      CG311      CG321      CG321       HGA2
+   12     2     4     5	 9 ;       HGA2      CG321      CG321      CG2D1
+   12     2     4    16	 9 ;       HGA2      CG321      CG321       HGA2
+   12     2     4    17	 9 ;       HGA2      CG321      CG321       HGA2
+   13     2     4     5	 9 ;       HGA2      CG321      CG321      CG2D1
+   13     2     4    16	 9 ;       HGA2      CG321      CG321       HGA2
+   13     2     4    17	 9 ;       HGA2      CG321      CG321       HGA2
+    1     3     6     5	 9 ;      CG311      CG321      CG2D1      CG2D1
+    1     3     6    18	 9 ;      CG311      CG321      CG2D1       HGA4
+   14     3     6     5	 9 ;       HGA2      CG321      CG2D1      CG2D1
+   14     3     6    18	 9 ;       HGA2      CG321      CG2D1       HGA4
+   15     3     6     5	 9 ;       HGA2      CG321      CG2D1      CG2D1
+   15     3     6    18	 9 ;       HGA2      CG321      CG2D1       HGA4
+    2     4     5     6	 9 ;      CG321      CG321      CG2D1      CG2D1
+    2     4     5     8	 9 ;      CG321      CG321      CG2D1      CG331
+   16     4     5     6	 9 ;       HGA2      CG321      CG2D1      CG2D1
+   16     4     5     8	 9 ;       HGA2      CG321      CG2D1      CG331
+   17     4     5     6	 9 ;       HGA2      CG321      CG2D1      CG2D1
+   17     4     5     8	 9 ;       HGA2      CG321      CG2D1      CG331
+    4     5     6     3	 9 ;      CG321      CG2D1      CG2D1      CG321
+    4     5     6    18	 9 ;      CG321      CG2D1      CG2D1       HGA4
+    8     5     6     3	 9 ;      CG331      CG2D1      CG2D1      CG321
+    8     5     6    18	 9 ;      CG331      CG2D1      CG2D1       HGA4
+    4     5     8    19	 9 ;      CG321      CG2D1      CG331       HGA3
+    4     5     8    20	 9 ;      CG321      CG2D1      CG331       HGA3
+    4     5     8    21	 9 ;      CG321      CG2D1      CG331       HGA3
+    6     5     8    19	 9 ;      CG2D1      CG2D1      CG331       HGA3
+    6     5     8    20	 9 ;      CG2D1      CG2D1      CG331       HGA3
+    6     5     8    21	 9 ;      CG2D1      CG2D1      CG331       HGA3
+    1     7     9    22	 9 ;      CG311      CG2D1      CG331       HGA3
+    1     7     9    23	 9 ;      CG311      CG2D1      CG331       HGA3
+    1     7     9    24	 9 ;      CG311      CG2D1      CG331       HGA3
+   10     7     9    22	 9 ;      CG2D2      CG2D1      CG331       HGA3
+   10     7     9    23	 9 ;      CG2D2      CG2D1      CG331       HGA3
+   10     7     9    24	 9 ;      CG2D2      CG2D1      CG331       HGA3
+    1     7    10    25	 9 ;      CG311      CG2D1      CG2D2       HGA5
+    1     7    10    26	 9 ;      CG311      CG2D1      CG2D2       HGA5
+    9     7    10    25	 9 ;      CG331      CG2D1      CG2D2       HGA5
+    9     7    10    26	 9 ;      CG331      CG2D1      CG2D2       HGA5
+
+
+
+
+
+
+
+
+#ifdef REST_LIMO_HEAVY
+[ position_restraints ]
+     1    1  fc_xy_lh fc_xy_lh fc_z_lh
+     2    1  fc_xy_lh fc_xy_lh fc_z_lh
+     3    1  fc_xy_lh fc_xy_lh fc_z_lh
+     4    1  fc_xy_lh fc_xy_lh fc_z_lh
+     5    1  fc_xy_lh fc_xy_lh fc_z_lh
+     6    1  fc_xy_lh fc_xy_lh fc_z_lh
+     7    1  fc_xy_lh fc_xy_lh fc_z_lh
+     8    1  fc_xy_lh fc_xy_lh fc_z_lh
+     9    1  fc_xy_lh fc_xy_lh fc_z_lh
+    10    1  fc_xy_lh fc_xy_lh fc_z_lh
+#endif
+
+#ifdef REST_LIMO_ONE
+[ position_restraints ]
+     1    1  fc_xy_lh fc_xy_lh fc_z_lh
+#endif
