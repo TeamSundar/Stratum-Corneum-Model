@@ -1,4 +1,4 @@
-Parameters files and configuration files of the MD simulations are in GROMCAS format. 
+Parameters files and configuration files of the MD simulations are in GROMACS format. 
 ### Simulation_files
 This folder contains the topology files (.itp), configuration files (.mdp) and shell scripts used for equilibration and production simulations of the developed model.
 ### Hydration_simulations
