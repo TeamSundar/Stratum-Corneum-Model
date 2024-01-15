@@ -1,7 +1,7 @@
 Model_Structure_npt_eq_8_5.pdb: the PDB strcuture of the built model after equilibration.
-Parameters files and configuration files of the MD simulations are in GROMACS format. 
+
 ### Simulation_files
-This folder contains the topology files (.itp), configuration files (.mdp) and shell scripts used for equilibration and production simulations of the developed model.
+This folder contains the topology files (.itp), configuration files (.mdp) and shell scripts used for equilibration and production simulations of the developed model. Parameters files and configuration files of the MD simulations are in GROMACS format. 
 ### Hydration_simulations
 This folder contains the topology files (.itp), configuration files (.mdp) and shell scripts used for the MD simulations performed for analyzing the effect of addition of 10 wt% and 20 wt% water.
 ### Umbrella_sampling
