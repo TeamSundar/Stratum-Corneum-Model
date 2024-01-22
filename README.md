@@ -1,19 +1,30 @@
 
 ### Model building: 
-The 3D strcutures of ceramide NP (phytosphingosine), ceramide AP (α-hydoxy phytosphingosine), lignoceric acid and water genertaed using ‘3D Builder’ of Schrodinger Maestro are in the folder model_building/initial_structures. 
+The 3D strcutures of ceramide NP, ceramide AP, lignoceric acid and water genertaed using ‘3D Builder’ of Schrodinger Maestro are in the folder model_building/initial_structures. 
+The input file of 'Packmol 18.169' is model_building/pack_model.inp.
+```
+packmol < pack_model.inp 
+```
+The output structure of Packmol is sc_box_070070080_2jun22.pdb.
+sc_box_070070080_2jun22.pdb was converted to .gro fromat and the residues were renumbered.
+```
+gmx editconf -f sc_box_070070080_2jun22.pdb -o sc_box_070070080_2jun22.gro -bt triclinic -box 7 7 8
+```
+sc_box_renumbered.gro was the starting structure for MD_simulation.
 
+### Model equilibration
+The CHARMM36 parameter files of the molecules are in charmm36_parameters.
+The shell scripts and .mdp files used for equilibrating the model are in model_equilibration. The scripts were run in the following order.
+```
+./em.sh
+./nvt_eq.sh
+./npt_eq.sh
+./npt_eq_8.sh
+./npt_prod.sh.
+```
 
-Model_Structure_npt_eq_8_5.pdb: the PDB strcuture of the built model after equilibration.
-
-### Simulation_files
-This folder contains the topology files (.itp), configuration files (.mdp) and shell scripts used for equilibration and production simulations of the developed model. Parameters files and configuration files of the MD simulations are in GROMACS format. 
-### Hydration_simulations
-This folder contains the topology files (.itp), configuration files (.mdp) and shell scripts used for the MD simulations performed for analyzing the effect of addition of 10 wt% and 20 wt% water.
-### Umbrella_sampling
-This folder contains the topology files (.itp), configuration files (.mdp) and shell scripts used for performing umbrella sampling simulations.
-### Permeation-Enhancer-simulations
-This folder contains the topology files (.itp), configuration files (.mdp) and shell scripts used for performing simulations with 5 wt% and 10 wt% concentrations of permeation enhancers.
-### permeability_calculation_scripts
-This folder contains the MATLAB scripts used for calculation of Permeability Coefficient from PMF and Diffusion Coefficients using Inhomogeneous Solubility Diffusion Model.
-### NSLD_SIMtoEXP_inputs
-This folder contains teh raw input files used for calculation of NSLD profiles using SIMtoEXP software.
+### Calculation of system properties
+Lengths of the simulation box in XY and Z dimensions for calculation of periodicity and area per ceramide was obtained using the following command.
+```
+gmx energy -f npt_prod_1-3.edr -o Box_XYZ.xvg
+```
