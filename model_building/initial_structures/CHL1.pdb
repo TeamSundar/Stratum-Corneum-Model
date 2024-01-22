@@ -1,0 +1,154 @@
+HEADER 
+TITLE     Built with Packmol                                             
+REMARK   Packmol generated pdb file 
+REMARK   Home-Page: http://www.ime.unicamp.br/~martinez/packmol
+REMARK
+HETATM    1  C3  CHL1    1       0.907   0.632  -7.394  1.00  0.00      MEMB C
+HETATM    2  H3  CHL1    1       1.937   0.818  -7.086  1.00  0.00      MEMB H
+HETATM    3  O3  CHL1    1       0.920   0.663  -8.795  1.00  0.00      MEMB O
+HETATM    4  H3' CHL1    1       1.039   1.610  -8.996  1.00  0.00      MEMB H
+HETATM    5  C4  CHL1    1       0.658  -0.771  -6.908  1.00  0.00      MEMB C
+HETATM    6  H4A CHL1    1      -0.369  -1.003  -7.230  1.00  0.00      MEMB H
+HETATM    7  H4B CHL1    1       1.354  -1.445  -7.452  1.00  0.00      MEMB H
+HETATM    8  C5  CHL1    1       0.798  -0.784  -5.401  1.00  0.00      MEMB C
+HETATM    9  C6  CHL1    1       1.742  -1.495  -4.767  1.00  0.00      MEMB C
+HETATM   10  H6  CHL1    1       2.446  -2.144  -5.309  1.00  0.00      MEMB H
+HETATM   11  C7  CHL1    1       1.834  -1.565  -3.282  1.00  0.00      MEMB C
+HETATM   12  H7A CHL1    1       1.876  -2.633  -2.961  1.00  0.00      MEMB H
+HETATM   13  H7B CHL1    1       2.758  -1.073  -2.922  1.00  0.00      MEMB H
+HETATM   14  C8  CHL1    1       0.641  -0.886  -2.569  1.00  0.00      MEMB C
+HETATM   15  H8  CHL1    1      -0.207  -1.560  -2.767  1.00  0.00      MEMB H
+HETATM   16  C14 CHL1    1       1.064  -0.535  -1.128  1.00  0.00      MEMB C
+HETATM   17  H14 CHL1    1       1.783   0.313  -1.232  1.00  0.00      MEMB H
+HETATM   18  C15 CHL1    1       1.946  -1.579  -0.430  1.00  0.00      MEMB C
+HETATM   19 H15A CHL1    1       1.458  -2.458  -0.865  1.00  0.00      MEMB H
+HETATM   20 H15B CHL1    1       2.954  -1.888  -0.729  1.00  0.00      MEMB H
+HETATM   21  C16 CHL1    1       1.870  -1.161   1.061  1.00  0.00      MEMB C
+HETATM   22 H16A CHL1    1       1.398  -1.814   1.777  1.00  0.00      MEMB H
+HETATM   23 H16B CHL1    1       2.845  -1.170   1.554  1.00  0.00      MEMB H
+HETATM   24  C17 CHL1    1       0.852   0.022   1.190  1.00  0.00      MEMB C
+HETATM   25  H17 CHL1    1       1.511   0.892   1.124  1.00  0.00      MEMB H
+HETATM   26  C13 CHL1    1       0.007   0.038  -0.105  1.00  0.00      MEMB C
+HETATM   27  C18 CHL1    1      -1.317  -0.631   0.273  1.00  0.00      MEMB C
+HETATM   28 H18A CHL1    1      -1.941  -0.731  -0.617  1.00  0.00      MEMB H
+HETATM   29 H18B CHL1    1      -0.809  -1.498   0.599  1.00  0.00      MEMB H
+HETATM   30 H18C CHL1    1      -1.935  -0.659   1.176  1.00  0.00      MEMB H
+HETATM   31  C12 CHL1    1      -0.533   1.265  -0.773  1.00  0.00      MEMB C
+HETATM   32 H12A CHL1    1      -1.437   1.554  -0.196  1.00  0.00      MEMB H
+HETATM   33 H12B CHL1    1       0.273   1.995  -0.639  1.00  0.00      MEMB H
+HETATM   34  C11 CHL1    1      -0.964   1.036  -2.266  1.00  0.00      MEMB C
+HETATM   35 H11A CHL1    1      -1.921   0.473  -2.299  1.00  0.00      MEMB H
+HETATM   36 H11B CHL1    1      -1.184   2.031  -2.689  1.00  0.00      MEMB H
+HETATM   37  C9  CHL1    1       0.119   0.359  -3.182  1.00  0.00      MEMB C
+HETATM   38  H9  CHL1    1       1.012   1.011  -3.123  1.00  0.00      MEMB H
+HETATM   39  C10 CHL1    1      -0.235   0.128  -4.684  1.00  0.00      MEMB C
+HETATM   40  C19 CHL1    1      -1.589  -0.592  -4.853  1.00  0.00      MEMB C
+HETATM   41 H19A CHL1    1      -1.551  -1.609  -4.414  1.00  0.00      MEMB H
+HETATM   42 H19B CHL1    1      -2.411  -0.009  -4.399  1.00  0.00      MEMB H
+HETATM   43 H19C CHL1    1      -1.849  -0.705  -5.922  1.00  0.00      MEMB H
+HETATM   44  C1  CHL1    1      -0.301   1.515  -5.353  1.00  0.00      MEMB C
+HETATM   45  H1A CHL1    1      -1.110   2.163  -4.970  1.00  0.00      MEMB H
+HETATM   46  H1B CHL1    1       0.621   1.945  -5.009  1.00  0.00      MEMB H
+HETATM   47  C2  CHL1    1      -0.172   1.594  -6.873  1.00  0.00      MEMB C
+HETATM   48  H2A CHL1    1       0.014   2.653  -7.153  1.00  0.00      MEMB H
+HETATM   49  H2B CHL1    1      -1.138   1.303  -7.320  1.00  0.00      MEMB H
+HETATM   50  C20 CHL1    1       0.102   0.036   2.554  1.00  0.00      MEMB C
+HETATM   51  H20 CHL1    1      -0.597  -0.838   2.674  1.00  0.00      MEMB H
+HETATM   52  C21 CHL1    1      -0.689   1.333   2.675  1.00  0.00      MEMB C
+HETATM   53 H21A CHL1    1      -1.426   1.396   1.856  1.00  0.00      MEMB H
+HETATM   54 H21B CHL1    1       0.002   2.197   2.631  1.00  0.00      MEMB H
+HETATM   55 H21C CHL1    1      -1.231   1.341   3.642  1.00  0.00      MEMB H
+HETATM   56  C22 CHL1    1       1.088  -0.048   3.724  1.00  0.00      MEMB C
+HETATM   57 H22A CHL1    1       1.440  -1.052   3.803  1.00  0.00      MEMB H
+HETATM   58 H22B CHL1    1       2.001   0.511   3.464  1.00  0.00      MEMB H
+HETATM   59  C23 CHL1    1       0.612   0.257   5.150  1.00  0.00      MEMB C
+HETATM   60 H23A CHL1    1       1.389  -0.134   5.827  1.00  0.00      MEMB H
+HETATM   61 H23B CHL1    1       0.354   1.317   5.261  1.00  0.00      MEMB H
+HETATM   62  C24 CHL1    1      -0.585  -0.464   5.677  1.00  0.00      MEMB C
+HETATM   63 H24A CHL1    1      -1.286  -0.608   4.845  1.00  0.00      MEMB H
+HETATM   64 H24B CHL1    1      -0.309  -1.428   6.012  1.00  0.00      MEMB H
+HETATM   65  C25 CHL1    1      -1.164  -0.105   7.055  1.00  0.00      MEMB C
+HETATM   66  H25 CHL1    1      -1.739   0.809   6.913  1.00  0.00      MEMB H
+HETATM   67  C26 CHL1    1      -2.087  -1.038   7.798  1.00  0.00      MEMB C
+HETATM   68 H26A CHL1    1      -1.483  -1.996   7.917  1.00  0.00      MEMB H
+HETATM   69 H26B CHL1    1      -2.539  -0.799   8.768  1.00  0.00      MEMB H
+HETATM   70 H26C CHL1    1      -3.018  -1.188   7.234  1.00  0.00      MEMB H
+HETATM   71  C27 CHL1    1      -0.109  -0.072   8.075  1.00  0.00      MEMB C
+HETATM   72 H27A CHL1    1       0.210  -1.063   8.527  1.00  0.00      MEMB H
+HETATM   73 H27B CHL1    1       0.752   0.506   7.826  1.00  0.00      MEMB H
+HETATM   74 H27C CHL1    1      -0.743   0.502   8.788  1.00  0.00      MEMB H
+CONECT   44   39   45   46   47
+CONECT   39    8   37   40   44
+CONECT   34   31   35   36   37
+CONECT   31   26   32   33   34
+CONECT   26   16   24   27   31
+CONECT   16   14   17   18   26
+CONECT   18   16   19   20   21
+CONECT   21   18   22   23   24
+CONECT   24   21   25   26   50
+CONECT   27   26   28   29   30
+CONECT   40   39   41   42   43
+CONECT   47    1   44   48   49
+CONECT   50   24   51   52   56
+CONECT   52   50   53   54   55
+CONECT   56   50   57   58   59
+CONECT   59   56   60   61   62
+CONECT   62   59   63   64   65
+CONECT   65   66   62   67   71
+CONECT   67   65   68   69   70
+CONECT   71   65   72   73   74
+CONECT    1    2    3    5   47
+CONECT    5    6    7    8    1
+CONECT    8    5    9   39
+CONECT    9    8   11   10
+CONECT   11   14   12   13    9
+CONECT   14   15   16   11   37
+CONECT   37   14   34   38   39
+CONECT   35   34
+CONECT   36   34
+CONECT   32   31
+CONECT   33   31
+CONECT   17   16
+CONECT   19   18
+CONECT   20   18
+CONECT   22   21
+CONECT   23   21
+CONECT   25   24
+CONECT   28   27
+CONECT   29   27
+CONECT   30   27
+CONECT   41   40
+CONECT   42   40
+CONECT   43   40
+CONECT   45   44
+CONECT   46   44
+CONECT   51   50
+CONECT   53   52
+CONECT   54   52
+CONECT   55   52
+CONECT   57   56
+CONECT   58   56
+CONECT   60   59
+CONECT   61   59
+CONECT   63   62
+CONECT   64   62
+CONECT   66   65
+CONECT   68   67
+CONECT   69   67
+CONECT   70   67
+CONECT   72   71
+CONECT   73   71
+CONECT   74   71
+CONECT   48   47
+CONECT   49   47
+CONECT    2    1
+CONECT    4    3
+CONECT    6    5
+CONECT    7    5
+CONECT   10    9
+CONECT   12   11
+CONECT   13   11
+CONECT   15   14
+CONECT   38   37
+CONECT    3    1    4
+END
