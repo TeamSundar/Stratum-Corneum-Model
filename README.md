@@ -1,3 +1,8 @@
+
+### Model building: 
+The 3D strcutures of ceramide NP (phytosphingosine), ceramide AP (α-hydoxy phytosphingosine), lignoceric acid and water genertaed using ‘3D Builder’ of Schrodinger Maestro are in the folder model_building/initial_structures. 
+
+
 Model_Structure_npt_eq_8_5.pdb: the PDB strcuture of the built model after equilibration.
 
 ### Simulation_files
