@@ -72,7 +72,7 @@ The PMF profiles were calculated using [umbrella_sampling/us/wham.sh](umbrella_s
 The dG associated with the transfer of permeant from bulk water to stratum corneum lipid matrix was calculated using [umbrella_sampling/us/dG_transfer_FEP/run.sh](umbrella_sampling/us/dG_transfer_FEP/run.sh). <br>
 The position autocorrelation functions required for deriving the diffusion coefficients were calculated using [umbrella_sampling/us/xacf20.pl](umbrella_sampling/us/xacf20.pl). <br>
 ### Calculation of permeability coefficients
-The folder [permeability_calcualtion_scripts](permeability_calcualtion_scripts) contains the MATLAB scripts used for calculation of Permeability Coefficient from PMF and Diffusion Coefficients using Inhomogeneous Solubility Diffusion Model.
+The folder [permeability_calculation_scripts](permeability_calculation_scripts) contains the MATLAB scripts used for calculation of Permeability Coefficient from PMF and Diffusion Coefficients using Inhomogeneous Solubility Diffusion Model.
 ### Permeation enhancer simulations
 The shell scripts and .mdp files used for the MD simulations performed for analyzing the effect of addition of 5 wt% and 10 wt% of permeation enhancers are in [permeation_enhancer_simulations](permeation_enhancer_simulations). <br>
 Permeation enhancer molecules were inserted into the system using [permeation_enhancer_simulations/insert_PE.sh](permeation_enhancer_simulations/insert_PE.sh).
