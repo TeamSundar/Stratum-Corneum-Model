@@ -1,6 +1,6 @@
 
 ### Model building: 
-The 3D strcutures of ceramide NP, ceramide AP, lignoceric acid and water genertaed using ‘3D Builder’ of Schrodinger Maestro are in the folder model_building/initial_structures. <br>
+The 3D strcutures of ceramide NP, ceramide AP, lignoceric acid and water generated using ‘3D Builder’ of Schrodinger Maestro are in the folder model_building/initial_structures. <br>
 The input file of 'Packmol' is [model_building/pack_model.inp](model_building/pack_model.inp).
 ```
 packmol < pack_model.inp 
