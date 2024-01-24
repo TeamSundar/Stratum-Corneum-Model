@@ -1,11 +1,11 @@
 
 ### Model building: 
 The 3D strcutures of ceramide NP, ceramide AP, lignoceric acid and water genertaed using ‘3D Builder’ of Schrodinger Maestro are in the folder model_building/initial_structures. 
-The input file of 'Packmol' is model_building/pack_model.inp.
+The input file of 'Packmol' is (model_building/pack_model.inp).
 ```
 packmol < pack_model.inp 
 ```
-The output structure of Packmol is /model_building/sc_box_070070080_2jun22.pdb.
+The output structure of Packmol is (/model_building/sc_box_070070080_2jun22.pdb).
 sc_box_070070080_2jun22.pdb was converted to .gro fromat and the residues were renumbered.
 ```
 gmx editconf -f sc_box_070070080_2jun22.pdb -o sc_box_070070080_2jun22.gro -bt triclinic -box 7 7 8
