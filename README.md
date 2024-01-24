@@ -67,7 +67,7 @@ Short equilibration after insertion of permeants were performed running the scri
 ./npt_eq.sh
 ```
 The Steered MD simulatins were perfomed using [umbrella_sampling/pulling.sh](umbrella_sampling/pulling.sh) and [umbrella_sampling/pulling.mdp](umbrella_sampling/pulling.mdp). <br>
-The frames were extraccted from Steered MD trajectory at regular intervals using [umbrella_sampling/extract_frames_v2.pl](umbrella_sampling/extract_frames_v2.pl) for performing umbrella sampling. <br>
+The frames were extracted from Steered MD trajectory at regular intervals using [umbrella_sampling/extract_frames_v2.pl](umbrella_sampling/extract_frames_v2.pl) for performing umbrella sampling. <br>
 Umbrella sampling simulatins were perfomed using [umbrella_sampling/us/us.pl](umbrella_sampling/us/us.pl) and [umbrella_sampling/us/us.mdp](umbrella_sampling/us/us.mdp). <br>
 The PMF profiles were calculated using [umbrella_sampling/us/wham.sh](umbrella_sampling/us/wham.sh).
 The dG associated with the transfer of permeant from bulk water to stratum corneum lipid matrix was calculated using [umbrella_sampling/us/dG_transfer_FEP/run.sh](umbrella_sampling/us/dG_transfer_FEP/run.sh). <br>
