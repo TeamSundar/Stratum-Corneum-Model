@@ -1,0 +1,53 @@
+define                  = -DREST_ON -DREST_ESDL_ONE -Dfc_xy_lh=0 -Dfc_z_lh=500
+integrator              = sd
+nsteps                  = 500000
+dt			= 0.002
+nstenergy               = 100
+nstlog                  = 500
+;
+cutoff-scheme           = Verlet
+nstlist                 = 20
+rlist                   = 1.2
+coulombtype             = pme
+rcoulomb                = 1.2
+vdwtype                 = Cut-off
+vdw-modifier            = Force-switch
+rvdw_switch             = 1.0
+rvdw                    = 1.2
+;
+tcoupl                  = v-rescale
+tc-grps                 = system
+tau_t                   = 1.0 
+ref_t                   = 303.15 
+;
+pcoupl                  = berendsen
+tau_p                   = 5.0
+compressibility         = 4.5e-5 
+ref_p                   = 1.0  
+;
+constraints             = h-bonds
+constraint_algorithm    = LINCS
+continuation            = yes
+;
+nstcomm                 = 100
+comm_mode               = linear-acceleration-correction
+comm_grps               = System
+;
+refcoord_scaling        = com
+
+; and set the free energy parameters
+free-energy              = yes 
+couple-moltype           = drug
+; these 'soft-core' parameters make sure we never get overlapping 
+; charges as lambda goes to 0
+sc-power                 = 1    
+sc-sigma                 = 0.3  
+sc-alpha                 = 1.0          
+; we still want the molecule to interact with itself at lambda=0
+couple-intramol          = no   
+couple-lambda1           = vdwq
+couple-lambda0           = none
+init-lambda-state        = $LAMBDA$
+
+
+fep-lambdas              = 0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 1.00
