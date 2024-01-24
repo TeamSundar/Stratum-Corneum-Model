@@ -22,7 +22,7 @@ The shell scripts and .mdp files used for equilibrating the model are in [model_
 ./npt_eq_8.sh
 ./npt_prod.sh
 ```
-The initial structure of production simulation is [npt_eq_8_5.pdb](npt_eq_8_5.pdb).
+The initial structure of production simulation is [Model_Structure_npt_eq_8_5.pdb](Model_Structure_npt_eq_8_5.pdb).
 
 ### Calculation of system properties
 Lengths of the simulation box in XY and Z dimensions for calculation of periodicity and area per ceramide was obtained using the following command.
